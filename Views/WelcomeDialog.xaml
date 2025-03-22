@@ -1,0 +1,30 @@
+<Window x:Class="CaptainsLog.Views.WelcomeDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:CaptainsLog.Views"
+        Title="Welcome to Captain's Log"
+        Height="250" Width="450"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Thanks for installing Captain's Log!
+                <LineBreak/>
+                <LineBreak/>
+                A folder has been created on your Desktop at:
+                <LineBreak/>
+                <Bold>C:\Users\You\Desktop\Captains_Log</Bold>
+                <LineBreak/>
+                This is where all logs and summaries will be stored.
+            </TextBlock>
+            <TextBlock Margin="0,10,0,0">
+                <Hyperlink NavigateUri="https://github.com/OchoNet/captains-log"
+                           RequestNavigate="Hyperlink_RequestNavigate">
+                    Learn more on the GitHub repo
+                </Hyperlink>
+            </TextBlock>
+            <Button Content="OK" HorizontalAlignment="Right" Width="75" Margin="0,20,0,0" Click="Ok_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

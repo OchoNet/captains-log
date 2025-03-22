@@ -1,0 +1,10 @@
+﻿bin/
+obj/
+publish/
+*.exe
+*.pdb
+*.dll
+*.cache
+*.user
+*.suo
+.vscode/
