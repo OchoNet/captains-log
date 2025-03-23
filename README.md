@@ -98,11 +98,31 @@ To clone and run the project locally:
 - Windows 10 or later
 - [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) or later
 
-## Road Map
+## 🗺️ Captain’s Log Road Map
 
-Features planned for future releases, prioritized by impact and user feedback.
+### 🧭 Directional Feedback
 
-### 🔜 Coming Soon
+Improvements to address recent user requests and insights shaping the app’s evolution:
+
+- **Settings Menu**  
+  Configure dark mode, default window width/height, window position, and default `#ACCOUNT` value.
+
+- **Account Color Customization**  
+  Users can define custom colors for specific accounts (via settings).  
+  _Note: To avoid UI clutter, a cap will be set on how many account-color pairs can be active at once._
+
+- **Flexible Task Text Display**  
+  Users can choose one of the following display styles (via settings):  
+  ▸ **Wrap** long task descriptions to fit the window  
+  ▸ **Clip** long text and display a **tooltip on hover** to reveal the full description
+
+- **Auto-Save Task Time Changes**  
+  If time values are updated while in Selection Mode, the changes will automatically save when Selection Mode is toggled off.  
+  ▸ This eliminates the need for the **Save Selected** button, which will be removed.
+
+---
+
+### 🔧 Functional Improvements
 
 - **Branding Overhaul**  
   High-impact visual improvements including a custom app icon, updated titlebar, and consistent accent colors across the UI.
@@ -122,6 +142,8 @@ Features planned for future releases, prioritized by impact and user feedback.
 - **Refresh Button Improvements**  
   Ensures that the calendar and task list visually update after logs are added or deleted.
 
+---
+
 ### 💻 UI Improvements
 
 - **Improved Hint Text**  
@@ -136,10 +158,15 @@ Features planned for future releases, prioritized by impact and user feedback.
 - **Align "Select All" Checkbox**  
   Vertically aligns the selection toggle with the rest of the toolbar for a cleaner interface.
 
-### ⚙️ Settings & Customization
+---
 
-- **Settings Menu**  
-  Configure dark mode, default window width/height, window position, and default `#ACCOUNT` value.
+### 💡 Improvements Under Consideration
+
+- **Email Summary Output**  
+  Users may optionally provide an email address to receive summaries upon generation.
+
+- **Custom Summary Templates**  
+  Users may be able to define their own layout/formatting for summary files via editable templates.
 
 ## License
 
