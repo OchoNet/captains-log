@@ -61,7 +61,7 @@ Captains Log has been enhanced for better robustness and user experience:
 
 If you're just looking to use Captains Log without modifying the code:
 
-1. **Download the latest release** from the [Releases](https://github.com/YOUR_USERNAME/captains-log/releases) page.
+1. **Download the latest release** from the [Releases](https://github.com/OchoNet/captains-log/releases) page.
 2. Unpack the CaptainsLog.zip folder
 3. Run the CaptainsLog.exe 
 4. The app will create a `Captains_Log` folder on your Desktop where Logs and Summaries are stored.
