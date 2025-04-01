@@ -7,7 +7,7 @@ Creator: [Jacob C. Ochoa](https://github.com/OchoNet)
 * **Disclaimer:** This application stores log and summary files locally on your device in a clearly marked folder (C:\Users\YOURNAME\Desktop\Captains_Log). It does not modify, delete, or access any existing files outside of its own folder.
    - This app may store data you enter (such as tasks or notes) locally, but it does not collect, transmit, or use any personal information.
    - All processing happens entirely on your device.
-   - Supports Windows OS with Net8.0 or later (see Requirements)
+   - Supports Windows OS with .Net 8.0 Runtime or later.
    - Use at your own discretion. You may delete any files or folders created by this app at any time.
  
 * Captains Log is a Windows application that manages your daily to-do list, Logs time spent on each, and stores the Log in a local folder (Desktop\Captains_Log).
